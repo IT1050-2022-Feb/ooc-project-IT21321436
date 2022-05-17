@@ -4,8 +4,6 @@
 
 #include "RegisteredUser.h"
 
-
-
 class Administrator :public RegisteredUser
 {
 protected:
