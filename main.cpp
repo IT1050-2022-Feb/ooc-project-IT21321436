@@ -10,8 +10,7 @@
 int main() {
 
     
-    Administrator* a1 = new Administrator("RMAD001","ManulaGunatilleke","Admin","M005G0010",20,
-    "Manula@RM.lk","0705883826");
+    Administrator* a1 = new Administrator("RMAD001","ManulaGunatilleke","Admin","M005G0010",20,"Manula@RM.lk","0705883826");
 
     a1->displayAdministrator();
     a1->SetVacancyApproveStatus(1000, 5000, 300, 50);
