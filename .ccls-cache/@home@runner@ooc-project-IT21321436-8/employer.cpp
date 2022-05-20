@@ -4,8 +4,8 @@
 
 #include "employer.h"
 #include "RegisteredUser.h"
-//#include "jobVacancy.h"
-//#include "application.h"
+//#include "Vacancy.h"
+//#include "Application.h"
 
 using namespace std;
 
@@ -29,13 +29,13 @@ void employer::displayemployer()
   
 }
 
-//void employer:: postVacancies(jobVacancy *vac){}
+//void employer:: postVacancies(Vacancy *vac){}
 
-//void employer:: editVacancies(jobVacancy *vac){}
+//void employer:: editVacancies(Vacancy *vac){}
 
-//void employer:: deleteVacancies(jobVacancy *vac){}
+//void employer:: deleteVacancies(Vacancy *vac){}
 
-//void employer:: respondApplications(application *app){}
+//void employer:: respondApplications(Application *app){}
 
 employer:: ~employer()
 {

@@ -1,5 +1,3 @@
-//IT21321436 - Gunatilleke M.B.D.S
-
 #include "RegisteredUser.h"
 #include "Administrator.h"
 #include "employer.h"
@@ -15,7 +13,7 @@
 
 int main() {
 
-    
+//IT21321436 - Gunatilleke M.B.D.S    
     Administrator* a1 = new Administrator("RMAD001","ManulaGunatilleke","Admin","M005G0010",20,"Manula@RM.lk","0705883826");
 
     a1->displayAdministrator();
@@ -24,7 +22,7 @@ int main() {
 
     delete a1;
 
-
+//Tharusha
 //employer
 employer *e1 = new employer("RMAD001","ManulaGunatilleke","Admin","M005G0010",20,"Manula@RM.lk","0705883826");
 employer *e2 = new employer("RMAD001","ManulaGunatilleke","Admin","M005G0010",20,"Manula@RM.lk","0705883826");
@@ -43,7 +41,7 @@ employer *e2 = new employer("RMAD001","ManulaGunatilleke","Admin","M005G0010",20
 
 e1->displayemployer();
 
-  
+//Tharusha 
 //company
 company *c1 = new company("RM10060","Oracle","Berlin","0332344344","ocle69@gmail.com");
 c1->displayCompDetails();
@@ -71,7 +69,7 @@ delete c2;
 
 delete f1;
 
-  //Sashi
+//Sashi
   
   JobSeeker *js1 = new JobSeeker("RMJS001","Aj","Job Seeker","JS55Second",24,"aj@sliit.lk","0712345423");
 	
